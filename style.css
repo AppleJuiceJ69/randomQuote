@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 1, 81);
+   
+}
+
+#container{
+    border: 1px solid black;
+    width: fit-content;
+    margin: 1rem 0rem 3rem 0rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 2px 2px navy;
+    background-color: aliceblue;
+    padding: 1rem;
+   
+}
+
+#quote-title{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+
+.quote{
+    padding: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+   
+}
+
+.category, .name{
+    font-size: 1.1rem;
+    text-align: center;
+   
+}
+.name{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+input[type="submit"]{
+    color: black;
+    box-shadow: 1px 1px 1px black;
+    background-color: blueviolet;
+    cursor: pointer;
+    padding: .5rem;
+    width: 100%;
+    color: white;
+    border-radius: .7rem;
+}
